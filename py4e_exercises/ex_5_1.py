@@ -23,5 +23,5 @@ while True:
     elif largest < fnum:
         largest = fnum
 
-print('Mininum is', smallest)    
-print("Maximum is", largest)
+print('Mininum is equal to', smallest)    
+print('Maximum is equal to', largest)
