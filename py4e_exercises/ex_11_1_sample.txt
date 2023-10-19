@@ -124,6 +124,8 @@ While most of the detail of how these components work is best left
 to computer builders, it helps to have some terminology
 so we can talk about these different parts as we write our programs.
 
+While most of the detail of how these components work is best left to computer builders, it helps to have some terminology so we can talk about these different parts as we write our programs.
+
 As a programmer, your job is to use and orchestrate 
 each of these resources to solve the problem that you need to solve
 and analyze the data you get from the solution.  As a programmer you will 
