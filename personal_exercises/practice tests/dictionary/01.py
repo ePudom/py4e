@@ -24,11 +24,11 @@ add_keys(dict_len, u_dict)
 print('Original: ', u_dict)
 print('\n')
 
-# u_list = sorted([(k, v) for k, v in u_dict.items()])
-# u_list_rev = sorted([(k, v) for k, v in u_dict.items()], reverse=True)
+u_list = sorted([(v, k) for k, v in u_dict.items()])
+u_list_rev = sorted([(v, k) for k, v in u_dict.items()], reverse=True)
 
-# print(u_list)
-# print(u_list_rev)
+print(u_list)
+print(u_list_rev)
 
 # 2. Write a Python script to add a key to a dictionary.
 x_len_question = input("Would you like to add to the dictionary? y/n: ")
@@ -74,6 +74,5 @@ while True:
         break
 
 # 5. Write a Python program to iterate over dictionaries using for loops.
-
 for k,v in u_dict.items():
     print(k,v)

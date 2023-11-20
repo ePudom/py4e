@@ -1,1 +1,0 @@
-print('Fist Python code. Yay!!!')
